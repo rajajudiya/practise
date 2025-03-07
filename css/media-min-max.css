@@ -1,0 +1,949 @@
+/* Extra Small Devices (Phones) - 360px to 480px */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .container{
+        width: 100%;
+     }
+     html, body {
+       overflow-x: hidden;
+       }
+     .col-xs-1{
+       width: 8.33%;
+     }
+     .col-xs-2{
+       width: 16.66%;
+     }
+     .col-xs-3{
+       width: 25%;
+     }
+     .col-xs-4{
+       width: 33.33%;
+     }
+     .col-xs-5{
+       width: 41.66%;
+     }
+     .col-xs-6{
+       width: 50%;
+     }
+     .col-xs-7{
+       width: 58.33%;
+     }
+     .col-xs-8{
+       width: 66.66%;
+     }
+     .col-xs-9{
+       width: 75%;
+     }
+     .col-xs-10{
+       width: 83.33%;
+     }
+     .col-xs-11{
+       width: 91.66%;
+     }
+     .col-xs-12{
+       width: 100%;
+     }
+     .dream-home-head h2{
+        font-size: 55px;
+        line-height: 60px;
+        text-align: center;
+     }
+     .dream-home-para p{
+        text-align: center;
+     }
+     .dream-home-para-2 p{
+        text-align: center;
+        font-size: 16px;
+     }
+     .btn-dream-home{
+        margin: auto;
+        margin-bottom: 30px;
+     }
+     .bam h1{
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+    }
+    .bam p{
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin: 5px 0 5px 0;
+    }
+    .btn-3-banner{
+    margin: 1rem 1rem 1rem 0;
+
+    }
+    .heading h2{
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+    }
+    .testinomal-head h2{
+      font-family: "Swifted", Sans-serif;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 58px;
+      letter-spacing: -2.8px;
+      color: #000000;
+      text-align: center;
+  }
+  .renovation-text h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.renovation-text p {
+    text-align: center;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.btn-estimate {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  /* margin-top: 15px; */
+  transition: all 0.3s ease-in-out;
+  margin-left: 23%;
+}
+
+.btn-estimate:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.content h1 {
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+}
+.content p {
+text-align: center;
+font-size: 14px;
+}
+.reno-main img{
+width: 100%;
+height: 500px;
+}
+.text-section h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+.text-section h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 25px;
+  color: #000000;
+  text-align: center;
+}
+.home-care-para p,
+.home-care-para-2 p,
+.home-care-para-3 p,
+.home-care-para-4 p,
+.home-care-para-5 p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.home-care-head h4 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  color: #A3A3A3;
+  text-align: center;
+}
+
+.home-care-head-2 h2 {
+  font-family: "Swifted", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -3px;
+  color: #000000;
+  text-align: center;
+}
+.renovation-process-heading h1{
+  /* font-size: 20px; */
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #212121;
+}
+.your-head h2{
+  font-size: 38px;
+  text-align: left;
+}
+.content{
+  margin-top: 60%;
+}
+.content h2 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+}
+.content p {
+  text-align: left;
+  font-size: 16px;
+}
+.imagesss {
+  position: relative;
+  /* max-width: 500px; */
+  flex: 1;
+}
+
+.imagesss img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.imagesss img:first-child {
+  position: relative;
+}
+
+.imagesss img:last-child {
+  position: absolute;
+  top: 105%;
+  left: 0%;
+  z-index: 1;
+}
+}
+
+/* Small Devices (Tablets & Larger Phones) - 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container{
+        width:540px;
+     }
+   
+     .col-s-1{
+       width: 8.33%;
+     }
+     .col-s-2{
+       width: 16.66%;
+     }
+     .col-s-3{
+       width: 25%;
+     }
+     .col-s-4{
+       width: 33.33%;
+     }
+     .col-s-5{
+       width: 41.66%;
+     }
+     .col-s-6{
+       width: 50%;
+     }
+     .col-s-7{
+       width: 58.33%;
+     }
+     .col-s-8{
+       width: 66.66%;
+     }
+     .col-s-9{
+       width: 75%;
+     }
+     .col-s-10{
+       width: 83.33%;
+     }
+     .col-s-11{
+       width: 91.66%;
+     }
+     .col-s-12{
+       width: 100%;
+     }
+     .col-s-visible{
+       display: visible;
+     }
+     .toggle{
+       display: block;
+     }
+     .dream-home-head h2{
+        font-size: 55px;
+        line-height: 60px;
+        text-align: center;
+     }
+     .dream-home-para p{
+        text-align: center;
+     }
+     .dream-home-para-2 p{
+        text-align: center;
+        font-size: 16px;
+     }
+     .btn-dream-home{
+        margin: auto;
+        margin-bottom: 30px;
+     }
+     .bam h1{
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+    }
+    .bam p{
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin: 5px 0 5px 0;
+    }
+    .btn-3-banner{
+    margin: 1rem 1rem 1rem 0;
+
+    }
+    .heading h2{
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+    }
+    .renovation-text h2 {
+      font-weight: bold;
+      font-size: 38px;
+      line-height: 46px;
+      text-align: center;
+  }
+  
+  .renovation-text p {
+      text-align: center;
+      color: #000000;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0px;
+  }
+  .btn-estimate {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    /* margin-top: 15px; */
+    transition: all 0.3s ease-in-out;
+    margin-left: 30%;
+}
+
+.btn-estimate:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.content h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+.content p {
+  text-align: center;
+  font-size: 16px;
+}
+.reno-main img{
+  width: 100%;
+  height: 500px;
+}
+.text-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+.text-section h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 25px;
+  color: #000000;
+  text-align: center;
+}
+.home-care-para p,
+.home-care-para-2 p,
+.home-care-para-3 p,
+.home-care-para-4 p,
+.home-care-para-5 p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.home-care-head h4 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  color: #A3A3A3;
+  text-align: center;
+}
+
+.home-care-head-2 h2 {
+  font-family: "Swifted", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -3px;
+  color: #000000;
+  text-align: center;
+}
+.renovation-process-heading h1{
+  /* font-size: 20px; */
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #212121;
+}
+.renovation-process p{
+  text-align: center;
+}
+.imagesss {
+  position: relative;
+  /* max-width: 500px; */
+  flex: 1;
+}
+
+.imagesss img {
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.imagesss img:first-child {
+  position: relative;
+}
+
+.imagesss img:last-child {
+  position: absolute;
+  top: 105%;
+  left: 18%;
+  z-index: 1;
+}
+.content {
+  margin-top: 70%;
+}
+.content h2 {
+  margin-bottom: 10px;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.your-head h2{
+  font-size: 40px;
+}
+/* .text-section hr {
+  margin-left: 25px;
+} */
+}
+
+
+/* Medium Devices (Small Laptops/Tablets) - 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container{
+        width: 720px;
+     }
+   
+     .col-md-1{
+       width: 8.33%;
+     }
+     .col-md-2{
+       width: 16.66%;
+     }
+     .col-md-3{
+       width: 25%;
+     }
+     .col-md-4{
+       width: 33.33%;
+     }
+     .col-md-5{
+       width: 41.66%;
+     }
+     .col-md-6{
+       width: 50%;
+     }
+     .col-md-7{
+       width: 58.33%;
+     }
+     .col-md-8{
+       width: 66.66%;
+     }
+     .col-md-9{
+       width: 75%;
+     }
+     .col-md-10{
+       width: 83.33%;
+     }
+     .col-md-11{
+       width: 91.66%;
+     }
+     .col-md-12{
+       width: 100%;
+     }
+     .col-md-none{
+       display: none;
+     }
+     .col-md-block{
+       display: block;
+     }
+     .col-md-visible{
+       display: visible;
+     }
+     .dream-home-head h2{
+        font-size: 60px;
+        line-height: 60px;
+        text-align: center;
+     }
+     .dream-home-para p{
+        text-align: center;
+     }
+     .dream-home-para-2 p{
+        text-align: center;
+     }
+     .btn-dream-home{
+        margin: auto;
+        margin-bottom: 30px;
+     }
+     .renovation-text h2 {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 46px;
+      text-align: center;
+  }
+  
+  .renovation-text p {
+      text-align: center;
+      color: #000000;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0px;
+  }
+  .btn-estimate {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    /* margin-top: 15px; */
+    transition: all 0.3s ease-in-out;
+    margin-left: 35%;
+}
+
+.btn-estimate:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.content h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 42px;
+}
+.content p {
+  text-align: center;
+}
+.text-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+.text-section h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 25px;
+  color: #000000;
+  text-align: center;
+}
+
+.text-section hr {
+  margin-left: 25px;
+}
+.home-care-para p,
+.home-care-para-2 p,
+.home-care-para-3 p,
+.home-care-para-4 p,
+.home-care-para-5 p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.home-care-head h4 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  color: #A3A3A3;
+  text-align: center;
+}
+
+.home-care-head-2 h2 {
+  font-family: "Swifted", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -3px;
+  color: #000000;
+  text-align: center;
+}
+.renovation-process-heading h1{
+  /* font-size: 20px; */
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #212121;
+}
+.renovation-process p{
+  text-align: center;
+}
+.content {
+  margin: 30% 0 5% 0;
+}
+.imagesss img{
+  height: 300px;
+  width: auto;
+}
+}
+/* Large Devices (Desktops & Laptops) - 1025px to 1440px */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container{
+        width: 960px;
+     }
+   
+     .col-lg-1{
+       width: 8.33%;
+     }
+     .col-lg-2{
+       width: 16.66%;
+     }
+     .col-lg-3{
+       width: 25%;
+     }
+     .col-lg-4{
+       width: 33.33%;
+     }
+     .col-lg-5{
+       width: 41.66%;
+     }
+     .col-lg-6{
+       width: 50%;
+     }
+     .col-lg-7{
+       width: 58.33%;
+     }
+     .col-lg-8{
+       width: 66.66%;
+     }
+     .col-lg-9{
+       width: 75%;
+     }
+     .col-lg-10{
+       width: 83.33%;
+     }
+     .col-lg-11{
+       width: 91.66%;
+     }
+     .col-lg-12{
+       width: 100%;
+     }
+     .col-lg-none{
+       display: none;
+     }
+     .col-lg-visible{
+       display: visible;
+     }
+     .dream {
+        padding: 120px 0px 120px 0px;
+        background-color: #EFEFEF;
+    }
+    
+    .dream-home-para p {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2.3px;
+        color: #A3A3A3;
+    }
+    
+    .dream-home-head h2 {
+        font-family: "Swifted", Sans-serif;
+        font-size: 76px;
+        font-weight: 400;
+        line-height: 78px;
+        letter-spacing: -5px;
+        color: #000000;
+    }
+    
+    .dream-home-para-2 p {
+        text-align: left;
+        color: #000000;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+    
+    .btn-dream-home {
+        height: 40px;
+        width: 200px;
+        background-color: #212121;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5rem 1rem 2rem 0;
+        font-size: 15px;
+        /* border: 1px solid #ffffff; */
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+    .btn-dream-home:hover {
+        background-color: transparent;
+        transition: 0.5s ease-in-out all;
+        border: 1px solid #212121;
+        color: #212121;
+    }
+    
+    .dream-img img {
+        border: 8px solid #212121;
+        border-radius: 10px;
+    }
+    .text-section h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      margin-left: 25px;
+  }
+  .home-care-img img{
+    object-fit: cover;
+    height: 1000px;
+}
+  .home-care-head-2 h2 {
+    font-family: "Swifted", Sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -3px;
+    color: #000000;
+}
+.renovation-process-heading h1{
+  /* font-size: 20px; */
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #212121;
+}
+.renovation-process p{
+  text-align: center;
+}
+}
+
+/* Extra Large Devices (Large Screens) - 1441px to 1920px */
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .container{
+        width: 1140px;
+     }
+     .col-xl-1{
+       width: 8.33%;
+     }
+     .col-xl-2{
+       width: 16.66%;
+     }
+     .col-xl-3{
+       width: 25%;
+     }
+     .col-xl-4{
+       width: 33.33%;
+     }
+     .col-xl-5{
+       width: 41.66%;
+     }
+     .col-xl-6{
+       width: 50%;
+     }
+     .col-xl-7{
+       width: 58.33%;
+     }
+     .col-xl-8{
+       width: 66.66%;
+     }
+     .col-xl-9{
+       width: 75%;
+     }
+     .col-xl-10{
+       width: 83.33%;
+     }
+     .col-xl-11{
+       width: 91.66%;
+     }
+     .col-xl-12{
+       width: 100%;
+     }
+     .col-xl-none{
+       display: none;
+     }
+     .col-xl-visible{
+       display: visible;
+     }
+     .card{
+       width: 100%;
+       gap: 10px;
+     }
+     .home-care-img img{
+      object-fit: cover;
+  }
+  .home-care-head-2 h2 {
+    font-family: "Swifted", Sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -3px;
+    color: #000000;
+}
+.renovation-process-heading h1{
+  /* font-size: 20px; */
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #212121;
+}
+.renovation-process p{
+  text-align: center;
+}
+/* design-buld-page */
+.crafting-heading h1 {
+  font-size: 56px;
+}
+.crafting-para p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+}
+
+/* Ultra-Wide Screens - Above 1920px */
+@media screen and (min-width: 1921px) {
+    .container{
+        width: 1320px;
+     }
+  
+     .col-xxl-1{
+      width: 8.33%;
+    }
+    .col-xxl-2{
+      width: 16.66%;
+    }
+    .col-xxl-3{
+      width: 25%;
+    }
+    .col-xxl-4{
+      width: 33.33%;
+    }
+    .col-xxl-5{
+      width: 41.66%;
+    }
+    .col-xxl-6{
+      width: 50%;
+    }
+    .col-xxl-7{
+      width: 58.33%;
+    }
+    .col-xxl-8{
+      width: 66.66%;
+    }
+    .col-xxl-9{
+      width: 75%;
+    }
+    .col-xxl-10{
+      width: 83.33%;
+    }
+    .col-xxl-11{
+      width: 91.66%;
+    }
+    .col-xxl-12{
+      width: 100%;
+    }
+    .col-xxl-none{
+      display: none;
+    }
+    /* .foot{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+    .toggle{
+      display: none;
+    }
+    .renovation-process-heading h1{
+      /* font-size: 20px; */
+      font-size: 50px;
+      text-align: center;
+      padding-bottom: 20px;
+      color: #212121;
+    }
+    .renovation-process p{
+      text-align: center;
+    }
+}
