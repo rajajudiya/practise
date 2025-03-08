@@ -233,6 +233,33 @@ height: 500px;
   left: 0%;
   z-index: 1;
 }
+.question-title {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -1.8px;
+  color: #000000;
+  text-align: left;
+}
+ul li{
+  text-align: start;
+}
+.crafting-img-main {
+  display: inline-block;
+}
+.crafting-img-2 img{
+  padding-top: 20px;
+}
+.phase-3-img-head,.step-2-img{
+  display: inline-block;
+}
+.phase-3-img-2 img,.step-2-img-2 img{
+  padding-top: 20px;
+}
+.crafting-heading h1 {
+  font-size: 30px;
+}
 }
 
 /* Small Devices (Tablets & Larger Phones) - 481px to 768px */
@@ -476,9 +503,36 @@ height: 500px;
 /* .text-section hr {
   margin-left: 25px;
 } */
+.question-title {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -1.8px;
+  color: #000000;
+  text-align: left;
+}
+ul li{
+  text-align: start;
+}
+.step-3-head h2{
+  font-size: 40px;
+  text-align: start;
+}
+.crafting-img-main {
+  display: inline-block;
+}
+.crafting-img-2 img{
+  padding-top: 20px;
+}
+.phase-3-img-head,.step-2-img{
+  display: inline-block;
+}
+.phase-3-img-2 img,.step-2-img-2 img{
+  padding-top: 20px;
 }
 
-
+}
 /* Medium Devices (Small Laptops/Tablets) - 769px to 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container{
