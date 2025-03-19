@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manhattan Showroom</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Swiper.js CSS for slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      font-weight: 500;
+      font-family: 'Georgia', serif;
+    }
+
+    .get-direction {
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    .swiper-slide img {
+      width: 185px;
+      border-radius: 10px;
+      height: 220px;
+    }
+
+    .map-container {
+      width: 100%;
+      height: 100%;
+      min-height: 400px;
+    }
+
+    .address {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid py-5">
+  <div class="row">
+    <!-- Left Section: Text and Slider -->
+    <div class="col-md-8 col-12 px-5">
+      <h1 class="section-title">Manhattan Showroom</h1>
+      <p class="address">6 W 20th St New York, NY 10011</p>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=6+W+20th+St+New+York,+NY+10011" class="get-direction">Get Direction →</a>
+
+      <!-- Swiper Slider -->
+      <div class="swiper mySwiper mt-4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/about/Andrew-R-Renovation-Expert.png" alt="Slide 1"/></div>
+          <div class="swiper-slide"><img src="./images/about/ANTHONY-Z-Renovation-Expert.jpg" alt="Slide 2"/></div>
+          <div class="swiper-slide"><img src="./images/about/CHAYA-U-Designer.jpg" alt="Slide 3"/></div>
+          <div class="swiper-slide"><img src="./images/about/GISELLE-U-Lead-Designer.jpg" alt="Slide 4"/></div>
+
+          <div class="swiper-slide"><img src="./images/about/Andrew-R-Renovation-Expert.png" alt="Slide 1"/></div>
+          <div class="swiper-slide"><img src="./images/about/ANTHONY-Z-Renovation-Expert.jpg" alt="Slide 2"/></div>
+          <div class="swiper-slide"><img src="./images/about/CHAYA-U-Designer.jpg" alt="Slide 3"/></div>
+          <div class="swiper-slide"><img src="./images/about/GISELLE-U-Lead-Designer.jpg" alt="Slide 4"/></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- Right Section: Map -->
+    <div class="col-md-4 col-12">
+      <iframe
+        class="map-container"
+        src="https://www.google.com/maps/embed/v1/place?q=6+W+20th+St+New+York,+NY+10011&key=YOUR_API_KEY"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS + Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 4,
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

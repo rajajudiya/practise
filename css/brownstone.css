@@ -686,7 +686,7 @@ body {
     margin-left: 10px;
     flex-grow: 1;
 }
-.renovat-head  h2,.your-head h2{
+.renovat-head  h2{
     font-family: "Swifted", Sans-serif;
     font-size: 76px;
     font-weight: 400;
@@ -694,6 +694,16 @@ body {
     letter-spacing: -4.5px;
     color: #000000;
     margin-top: 20px;  
+}
+.your-heads h2{
+    font-family: "Swifted", Sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -4.5px;
+    color: #000000;
+    margin-top: 20px;  
+    text-align: center;
 }
 
 
@@ -737,4 +747,51 @@ body {
     letter-spacing: -4.5px;
     color: #000000;
     margin-top: 20px;  
+}
+
+
+.your-dream-main-head p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    color: #A3A3A3;
+    text-align: center;
+}
+.your-dream-main-head-2 h2{
+    font-family: "Swifted", Sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -2.8px;
+    color: #000000;
+    text-align: center;
+}
+.your-dream-main-para {
+    text-align: center;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.btn-estimates {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 37%;
+}
+
+.btn-estimates:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }

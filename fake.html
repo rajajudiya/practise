@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NYC Brownstone Renovations</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #111;
-        }
-        .container {
-            width: 80%;
-            max-width: 1200px;
-            margin: auto;
-            padding: 50px 0;
-            background-color: #fff;
-        }
-        .title {
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            text-align: center;
-            font-size: 1rem;
-            color: #555;
-            margin-bottom: 30px;
-        }
-        .section {
-            border-top: 1px solid #ccc;
-            padding: 20px 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .option-title {
-            font-size: 0.9rem;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-        .content {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
-        .icon {
-            width: 50px;
-            height: 50px;
-            background: url('https://cdn-icons-png.flaticon.com/512/2965/2965567.png') no-repeat center;
-            background-size: contain;
-            margin-right: 15px;
-        }
-        .text {
-            flex: 1;
-        }
-        .text h3 {
-            font-size: 1.5rem;
-            margin: 0;
-        }
-        .text p {
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Remodeling Contractors Section</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      padding: 40px 20px;
+      align-items: start;
+    }
+
+    .image-grid {
+      grid-column: span 6;
+      display: grid;
+      gap: 20px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.4s ease;
+    }
+
+    .image-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .text-content {
+      grid-column: span 6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .text-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 992px) {
+      .container {
+        grid-template-columns: repeat(6, 1fr);
+      }
+
+      .image-grid,
+      .text-content {
+        grid-column: span 6;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .image-grid,
+      .text-content {
+        grid-column: span 2;
+      }
+
+      .text-content h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1 class="title">We Take Care of Everything When it Comes to NYC Brownstone Renovations</h1>
-        <p class="subtitle">When renovating a brownstone or townhouse, the possibilities for improvement and updates are virtually endless.</p>
-
-        <div class="section">
-            <span class="option-title">OPTION 01</span>
-        </div>
-
-        <div class="section">
-            <div class="content">
-                <div class="icon"></div>
-                <div class="text">
-                    <h3>Kitchen Renovation</h3>
-                    <p>The kitchen is often the heart of any home, and renovating it can significantly improve its usability and visual appeal. Upgrading appliances, installing new countertops, replacing cabinets, and adding modern fixtures can transform an outdated kitchen into a functional and stylish space.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
-            <span class="option-title">OPTION 02</span>
-        </div>
-
+  <div class="container">
+    <!-- Images Section -->
+    <div class="image-grid">
+      <img src="./images/about/banner-about-us.webp" alt="Bathroom Remodeling">
+      <img src="./images/about/banner-about-us.webp" alt="Kitchen Remodeling">
+      <img src="./images/about/banner-about-us.webp" alt="Brownstone Renovation">
     </div>
+
+    <!-- Text Content -->
+    <div class="text-content">
+      <h1>Most Recommended Bathroom, Kitchen, and Brownstone Remodeling Contractors in NYC</h1>
+      <p>For bathroom & kitchen remodeling to Brownstone renovation in NYC, there’s only one recommended contractor, ATOZ Renovations – and that’s us! We have years of experience and are dedicated to providing reliable home remodeling services in NYC.</p>
+      <p>From the moment you step foot into our showrooms located in New York City and Brooklyn, and we step out of your home after the remodeling, we ensure that you have the best experience each step of the way.</p>
+      <p>We’re conveniently located at 6 W 20th Street, just a short walk from Chelsea Green Park, making it easy for you to visit and discuss your project.</p>
+      <p><strong>So why wait?</strong> Call us today to schedule your consultation, and let us bring your bathroom and kitchen remodeling dreams to life!</p>
+    </div>
+  </div>
 
 </body>
 </html>
