@@ -276,7 +276,36 @@ body {
     cursor: pointer;
 }
 
+/* new-section */
+.quote-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 
+  .quote-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .main-title {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .subtitle {
+    color: #555;
+    font-size: 1rem;
+  }
+
+  .rounded-img {
+    border-radius: 12px;
+    object-fit: cover;
+  }
 
 /* new-section-1 */
 .discover-kitchen {
@@ -401,6 +430,19 @@ body {
 .dream-img img {
     border: 8px solid #212121;
     border-radius: 10px;
+    position: relative;
+}
+.dream-inner-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 68px;
+    height: 48px;
+    margin-left: -34px;
+    margin-top: -24px;
+    -webkit-transition: opacity .25s cubic-bezier(0,0,.2,1);
+    transition: opacity .25s cubic-bezier(0,0,.2,1);
+    z-index: 63;
 }
 
 /* slider */
@@ -535,7 +577,166 @@ body {
     transform: scale(1.1);
     /* Slight zoom effect for center image */
 }
+.swiper-slide:hover .white-button{
+    opacity: 1;
+}
+.white-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    opacity: 0;
+  }
+  .btn-appointment {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    text-decoration: none;
+    display: table;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+    text-transform: uppercase;
+}
 
+.btn-appointment:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* swiper-2 */
+.slider-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .text-section-1 p{
+    
+  }
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    display: flex;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    align-items: center;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+
+  .image-section {
+    grid-column: span 6;
+  }
+
+  .image-section img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+
+  .text-section {
+    grid-column: span 6;
+    color: #333;
+  }
+
+  .step-number {
+    /* font-size: 100px;
+    color: #f0f0f0;
+    line-height: 0.8; */
+    position: relative;
+    font-family: "Poppins", Sans-serif;
+    font-size: 150px;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #00000066;
+    stroke: #00000066;
+    color: #FFFFFF00;
+  }
+
+  .step-label {
+    position: absolute;
+    top: 90px;
+    left: 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    color: #444;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-top: -20px; */
+    color: #111;
+  }
+
+  .description {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 90%;
+  }
+
+  .slider-controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .arrow {
+    width: 50px;
+height: 50px;
+border: 2px solid black;
+border-radius: 50%;
+background-color: white;
+color: black;
+font-size: 24px;
+cursor: pointer;
+transition: all 0.3s ease;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+  }
+
+  .arrow:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .dots {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+
+  .dot.active {
+    background-color: #333;
+  }
 
 
 .reno-main {

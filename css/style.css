@@ -316,6 +316,37 @@ body {
     border: 1px solid #ffffff;
     /* z-index: 1; */
 }
+.rating-container {
+    border: 1px solid #ccc;
+  }
+
+  .rating-box {
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 10px;
+    height: 100%;
+  }
+
+  .rating-box:last-child {
+    border-right: none;
+  }
+
+  .platform-logo {
+    height: 20px;
+    width: auto;
+  }
+
+  .stars {
+    color: #f7941d;
+  }
+
+  .score {
+    font-weight: bold;
+  }
+
 
 /* review */
 .review-section {
@@ -325,7 +356,7 @@ body {
     flex-wrap: wrap;
     /* gap: 20px; */
     padding: 20px;
-    width: 100%;
+    /* width: 100%; */
 }
 .review-box {
     display: flex;

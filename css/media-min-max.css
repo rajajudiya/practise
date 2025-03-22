@@ -134,11 +134,11 @@
     padding: 12px 20px;
     border: none;
     text-decoration: none;
-    display: inline-block;
+    display: table;
     font-size: 1rem;
     /* margin-top: 15px; */
     transition: all 0.3s ease-in-out;
-    margin-left: 23%;
+    margin: auto;
   }
 
   .btn-estimate:hover {
@@ -312,9 +312,9 @@
     margin-left: 10%;
   }
 
-  .btn-estimate {
+  /* .btn-estimate {
     margin-left: 5%;
-  }
+  } */
 
   .your-dream-main-head-2 h2 {
     font-size: 30px;
@@ -382,12 +382,86 @@
     left: 18%;
     bottom: 0%;
   }
-  .btn-3-banner{
+
+  .btn-3-banner {
     display: inline-flex;
   }
+
   .section-title {
     margin-top: 45px;
   }
+
+  .slide {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 36px;
+  }
+
+  .step-number {
+    text-align: center;
+    font-size: 100px;
+  }
+
+  .step-label {
+    position: absolute;
+    top: 90px;
+    left: 51px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    color: #444;
+  }
+  .text-section-1 p{
+    text-align: center;
+    font-size: 13px;
+  }
+  .main-title ,.subtitle {
+    text-align: center;
+  }
+  .main-title{
+    font-size: 20px;
+  }
+  .content p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .section{
+    display: block;
+  }
+  .text-content {
+    text-align: center;
+  }
+  .text-content h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  .menu-toggle {
+    display: flex;
+}
+
+.main-nav {
+    display: none;
+}
+
+.contact-info span,
+.contact-info a {
+    display: block;
+}
+
+.contact-info p {
+    display: none;
+}
+.contact-btn{
+    display: none;
+}
+.contact-info {
+    border-right: 1px solid #212121;
+}
 }
 
 /* Small Devices (Tablets & Larger Phones) - 481px to 768px */
@@ -450,6 +524,38 @@
 
   .toggle {
     display: block;
+  }
+  .section-title {
+    margin-top: 45px;
+  }
+
+  .slide {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 36px;
+  }
+
+  .step-number {
+    text-align: center;
+    font-size: 100px;
+  }
+
+  .step-label {
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    color: #444;
+  }
+  .text-section-1 p{
+    text-align: center;
+    font-size: 13px;
   }
 
   .dream-home-head h2 {
@@ -519,11 +625,11 @@
     padding: 12px 20px;
     border: none;
     text-decoration: none;
-    display: inline-block;
+    display: table;
     font-size: 1rem;
     /* margin-top: 15px; */
     transition: all 0.3s ease-in-out;
-    margin-left: 30%;
+    margin: auto;
   }
 
   .btn-estimate:hover {
@@ -709,9 +815,9 @@
     margin-left: 19%;
   }
 
-  .btn-estimate {
+  /* .btn-estimate {
     margin-left: 15%;
-  }
+  } */
 
   .your-dream-main-head-2 h2 {
     font-size: 35px;
@@ -771,6 +877,7 @@
     padding-top: 30px;
     text-align: center;
   }
+
   .bam h1 {
     text-align: center;
   }
@@ -786,9 +893,62 @@
     left: 25%;
     bottom: 0%;
   }
+
   .section-title {
     margin-top: 35px;
   }
+  .main-title{
+    text-align: center;
+  }
+  .subtitle{
+    text-align: center;
+  }
+  .quote-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .quote-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .section{
+    display: inline-block;
+  }
+  .text-content {
+    text-align: center;
+  }
+  .text-content h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  .menu-toggle {
+    display: flex;
+}
+
+.main-nav {
+    display: none;
+}
+
+.contact-info span,
+.contact-info a {
+    display: block;
+}
+
+.contact-info p {
+    display: none;
+}
+.contact-btn{
+    display: none;
+}
+.contact-info{
+    border-right: 1px solid #212121;
+}
 }
 
 /* Medium Devices (Small Laptops/Tablets) - 769px to 1024px */
@@ -1009,9 +1169,9 @@
     margin-left: 25%;
   }
 
-  .btn-estimate {
+  /* .btn-estimate {
     margin-left: 30%;
-  }
+  } */
 
   .your-dream-main-head-2 h2 {
     font-size: 30px;
@@ -1064,9 +1224,69 @@
     align-items: center;
     padding-top: 30px;
   }
+
   .section-title {
     margin-top: 35px;
   }
+  .section-title {
+    margin-top: 45px;
+  }
+
+  .slide {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 36px;
+  }
+
+  .step-number {
+    text-align: center;
+    font-size: 100px;
+  }
+
+  .step-label {
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    color: #444;
+  }
+  .text-section-1 p{
+    text-align: center;
+    font-size: 13px;
+  }
+  .section{
+    display: inline-block;
+  }
+  .text-content {
+    text-align: center;
+  }
+  .text-content h1{
+    font-size: 60px;
+    line-height: 49px;
+    margin-top: 15px;
+  }
+  .menu-toggle {
+    display: flex;
+}
+
+.main-nav {
+    display: none;
+}
+
+.contact-info span,
+.contact-info a {
+    display: none;
+}
+
+.contact-info p {
+    display: none;
+}
 }
 
 /* Large Devices (Desktops & Laptops) - 1025px to 1440px */
@@ -1265,6 +1485,19 @@
     align-items: center;
     padding-top: 30px;
   }
+  .menu-toggle {
+    display: none;
+}
+
+.main-nav {
+    display: block;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+}
+
 }
 
 /* Extra Large Devices (Large Screens) - 1441px to 1920px */
@@ -1385,7 +1618,7 @@
   }
 
   .section {
-    margin-bottom: 23%;
+    /* margin-bottom: 23%; */
   }
 
   .btn-transform {
@@ -1406,6 +1639,18 @@
     align-items: center;
     padding-top: 30px;
   }
+  .menu-toggle {
+    display: none;
+}
+
+.main-nav {
+    display: block;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+}
 }
 
 /* Ultra-Wide Screens - Above 1920px */
@@ -1486,5 +1731,16 @@
   .renovation-process p {
     text-align: center;
   }
+  .menu-toggle {
+    display: none;
+}
 
+.main-nav {
+    display: block;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+}
 }

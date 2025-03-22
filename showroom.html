@@ -363,9 +363,85 @@
             </div>
             </div>
         </section>
+        
+        <!-- swiper -->
+        <section class="pt-5">
+            <!-- <div class="container"> -->
+            <div class="row">
+                <div class="swiper-head">
+                    <h2>Our Project Gallery</h2>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/cover-image-21.png" alt="Project 1">
+                            <div class="overlay">Tribeca Full House Remodel</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/cover-image-20 (1).png" alt="Project 2">
+                            <div class="overlay">Queens Village Full House Remodel</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/cover-image-18.png" alt="Project 3">
+                            <div class="overlay">Brooklyn House Remodel</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/Featured-Image.png" alt="Project 4">
+                            <div class="overlay">Park Slope Home Full Remodel</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/Featured-Image (1).png" alt="Project 5">
+                            <div class="overlay">New York Apartment Renovation</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/Featured-Image.jpg" alt="Project 6">
+                            <div class="overlay">Manhattan Apartment Renovation</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/Featured-Image-1.png" alt="Project 7">
+                            <div class="overlay">Parkslope Brownstone Home Renovation</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/Featured-Image-4.png" alt="Project 8">
+                            <div class="overlay">Brooklyn Coop Home Renovation</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/Featured-Image-Full-Home-Remodel-Queens-NY.jpg" alt="Project 9">
+                            <div class="overlay">Full Home Remodel Queen’s New York</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/remodel/cover-image-31.jpg" alt="Project 10">
+                            <div class="overlay">Central Park West Full Home Remodel</div>
+                            <button class="white-button">View</button>
+                            <div class="overlay-1">Full Remodel | recents</div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn-appointment">view project gallery</a>
+        </section>
         <section style="background-image: url('./images/showroom/Contact-us-BG1.jpg');  background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;">
+        background-size: cover;" class="mt-5">
              <div class="container">
                 <div class="row">
                     <div class="book-meet-main">
@@ -387,7 +463,7 @@
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         const swiper = new Swiper(".mySwiper", {
             slidesPerView: 2,
@@ -410,6 +486,23 @@
                     slidesPerView: 4,
                 }
             }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swipers = new Swiper('.swiper-container', {
+            loop: true,  // Infinite loop
+            centeredSlides: true,  // Center active slide
+            slidesPerView: 1.5,  // Show center image fully, left & right partially
+            spaceBetween: 20,  // Gap between slides
+            autoplay: {
+                delay: 3000,  // Auto-slide every 3 seconds
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     </script>
 </body>
