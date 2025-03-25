@@ -193,15 +193,39 @@ body {
     overflow-x: hidden;
 }
 /* header */
+
+/* .header{
+    position: sticky; 
+    background-color: transparent;
+} */
+.header-content {
+  transition: all 0.3s ease;
+  background: transparent;
+  transform: translateY(0);
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header-scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
  /* Base Styles */
  .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 15px;
-    border-bottom: 1px solid #ccc;
-    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #FFFFFF;
+    /* position: relative; */
+    position: absolute;
+    z-index: 999;
+    width: 100%;
   }
   
   .logo svg {
@@ -220,8 +244,8 @@ body {
     align-items: center;
     font-size: 12px;
     gap: 10px;
-    border-left: 1px solid #212121;
-    border-right: 1px solid #212121;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
     text-align: center;
   }
   
@@ -239,11 +263,12 @@ body {
     gap: 20px;
     padding: 0;
     margin: 0;
+    color: #FFFFFF;
   }
   
   .main-nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #FFFFFF;
     font-size: 14px;
   }
   
@@ -260,13 +285,6 @@ body {
     height: 3px;
     background: #000;
   }
-  /* .main-nav {
-    display: none;
-  } */
-  
-  /* .menu-toggle {
-    display: flex;
-  } */
   /* Side Nav */
   .side-nav {
     position: fixed;
